@@ -1,2 +1,2 @@
-language: c
+language: php
 script: bash script.sh

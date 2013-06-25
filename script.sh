@@ -1,5 +1,7 @@
 # test script
 
+set -e   # fail the whole script if any line fails
+
 echo "Started on TIME:" $(date)
 
 sudo apt-get update
@@ -16,6 +18,7 @@ echo "TIME:" $(date)
 sudo apt-get update
 echo "TIME:" $(date)
 sudo apt-get -y install lxc-docker
+
 
 
 echo "Finished installing on TIME:" $(date)

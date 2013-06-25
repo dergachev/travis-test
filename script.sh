@@ -21,8 +21,6 @@ EOF
 sudo chmod 755 /usr/sbin/policy-rc.d
 sudo apt-get -qq install lxc
 
-echo "Finished installing lxc. TIME" $(date)
-
 echo "Installing docker, TIME:" $(date)
 sudo apt-get -y install python-software-properties
 echo "TIME:" $(date)
